@@ -1,10 +1,10 @@
 {
-  "name": "BlogBuddy-Server",
+  "name": "blogbuddy-server",
   "version": "1.0.0",
   "description": "A simple blogger application",
   "main": "server.js",
   "scripts": {
-    "build": "rm -rf dist && webpack mode development",
+    "build": "rm -rf dist && webpack --mode development",
     "start": "node ./dist/server.js"
   },
   "author": "Savidya Sathyani <savidya19@gmail.com>",
@@ -18,7 +18,7 @@
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
-    "babel-loader": "^8.0.4",
+    "babel-loader": "^7.1.4",
     "babel-preset-env": "^1.7.0",
     "html-loader": "^0.5.5",
     "html-webpack-plugin": "^3.2.0",
